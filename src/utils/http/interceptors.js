@@ -45,8 +45,8 @@ export default http => {
           break
         }
         case 401: {
-          if (window.location.pathname !== '/auth/login') {
-            window.location.href = '/auth/login'
+          if (window.location.pathname !== '/web/index.html#/auth/login') {
+            window.location.href = '/web/index.html#/auth/login'
           }
 
           break

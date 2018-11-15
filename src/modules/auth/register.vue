@@ -105,7 +105,7 @@ export default {
       })
     },
     showCaptcha () {
-      let captcha = new TencentCaptcha('2013342827', (res) => {
+      let captcha = new TencentCaptcha('2071852665', (res) => {
         if (res.ret === 0) {
           this.ticket = res.ticket
           this.randstr = res.randstr

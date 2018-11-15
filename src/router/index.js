@@ -24,7 +24,7 @@ const router = new Router({
   routes,
   linkActiveClass: 'active',
   linkExactActiveClass: 'active',
-  mode: 'history'
+  mode: ''
 })
 
 router.beforeEach(beforeEach)
